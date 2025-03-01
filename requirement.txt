@@ -1,0 +1,14 @@
+tensorflow==2.18.0
+pandas
+numpy
+scikit-learn
+tensorboard
+streamlit
+matplotlib
+ipykernel
+seaborn
+nltk
+re
+spacy
+sklearn
+joblib
