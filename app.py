@@ -15,7 +15,7 @@ def text_cleaner(text):
   #text = re.sub(r'#[A-Za-z0-9]+','',text)
 
   #remove links
-  text = re.sub(r'http\S+', '', text)
+  text = re.sub(r'http\s+', '', text)
 
   #convering text to lower case
   text = text.lower()
