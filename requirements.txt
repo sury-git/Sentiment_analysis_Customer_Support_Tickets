@@ -16,7 +16,7 @@ pickle-mixin==1.0.2
 thinc==8.2.1
 # SpaCy language model
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
-
+ipykernel
 # streamlit
 # scikit-learn
 # pandas
