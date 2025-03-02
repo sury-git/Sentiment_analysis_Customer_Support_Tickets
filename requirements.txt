@@ -6,17 +6,17 @@
 # spacy
 # en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
 
-streamlit==1.30.0
-scikit-learn==1.4.0
-pandas==2.2.0
-numpy==1.26.4
-spacy==3.6.0
-regex==2023.12.25
-pickle-mixin==1.0.2
-thinc==8.2.1
-# SpaCy language model
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
-ipykernel
+# streamlit==1.30.0
+# scikit-learn==1.4.0
+# pandas==2.2.0
+# numpy==1.26.4
+# spacy==3.6.0
+# regex==2023.12.25
+# pickle-mixin==1.0.2
+# thinc==8.2.1
+# # SpaCy language model
+# en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
+# ipykernel
 # streamlit
 # scikit-learn
 # pandas
@@ -27,3 +27,8 @@ ipykernel
 # # SpaCy language model
 # en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
 
+streamlit
+scikit-learn
+pandas
+numpy
+joblib  # or pickle (pickle is built-in, so no need to install)
