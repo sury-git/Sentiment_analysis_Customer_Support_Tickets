@@ -3,8 +3,8 @@ import pickle
 # from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the trained model
-with open('Sentiment_analyse_RFC_model.pkl','r') as file:
-    model = pickle.load(file)
+with open('Sentiment_analyse_RFC_model.pkl','r') as f:
+    model = pickle.load(f)
 
 st.title("Sentiment Analysis")
 
