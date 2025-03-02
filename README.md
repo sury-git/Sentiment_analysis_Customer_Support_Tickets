@@ -54,5 +54,6 @@ Negative based on text data.
         1: Neutral
         2: Positive
         
-7. Streamlit App Link:
+7. Streamlit App Link: https://sentimentanalysiscustomersupporttickets-thriftyai.streamlit.app/
+   Note: app is not working. There is an error related to requirement.txt or installing dependencies.
 
