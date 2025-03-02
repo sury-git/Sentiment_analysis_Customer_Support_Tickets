@@ -1,13 +1,13 @@
 import streamlit as st
 import pickle
-import joblib
+
 # from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the trained model
-# with open('Sentiment_analyse_RFC_model.pkl','rb') as f:
-#     model = pickle.load(f)
+with open('Sentiment_analyse_RFC_model.pkl','rb') as f:
+    model = pickle.load(f)
 
-model = joblib.load('Sentiment_analyse_RFC_model.pkl')
+# model = joblib.load('Sentiment_analyse_RFC_model.pkl')
 
 st.title("Sentiment Analysis")
 
