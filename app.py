@@ -1,8 +1,10 @@
 import streamlit as st
-import tensorflow as tf
+import pickle
+# from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the trained model
-model = tf.keras.models.load_model('Sentiment_analyse_RFC_model.pkl')
+with open('Sentiment_analyse_RFC_model.pkl','r') as file:
+    model = pickle.load(file)
 
 st.title("Sentiment Analysis")
 
