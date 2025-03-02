@@ -1,7 +1,18 @@
-streamlit
-scikit-learn
-pandas
-numpy
-pickle
-spacy
+# streamlit
+# scikit-learn
+# pandas
+# numpy
+# pickle
+# spacy
+# en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
+
+streamlit==1.30.0
+scikit-learn==1.4.0
+pandas==2.2.0
+numpy==1.26.4
+spacy==3.7.2
+regex==2023.12.25
+pickle-mixin==1.0.2
+
+# SpaCy language model
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
